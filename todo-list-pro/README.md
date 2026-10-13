@@ -1,67 +1,16 @@
-# Todo List Pro
+# React + Vite
 
-A responsive task management application built with React, Redux Toolkit, and Tailwind CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Create, edit, and delete tasks
-- Mark tasks as completed
-- Assign priorities: Low, Medium, and High
-- Search tasks by title
-- Filter tasks by All, Active, and Completed
-- Automatically sort tasks by priority
-- Save tasks in browser localStorage
-- Toggle between light and dark mode
-- Responsive layout for desktop and mobile devices
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Technologies Used
+## React Compiler
 
-- React
-- JavaScript
-- Redux Toolkit
-- React Redux
-- Tailwind CSS
-- Vite
-- localStorage
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Getting Started
+## Expanding the ESLint configuration
 
-### Prerequisites
-
-Install [Node.js](https://nodejs.org/) before proceeding.
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/code0e/to-do-list-pro.git
-   ```
-
-2. Enter the project directory:
-
-   ```bash
-   cd to-do-list-pro
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in your terminal.
-
-## What I Learned
-
-Building this project helped me practise React hooks, Redux Toolkit state management, array filtering and sorting, browser storage, and responsive UI development with Tailwind CSS.
-
-## Author
-
-Anumoka Divine Uchechukwu
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
